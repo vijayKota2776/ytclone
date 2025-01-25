@@ -4,11 +4,14 @@
     box-sizing: 0;
     border: 0;
 }
+body{
+    background-color: black;
+}
 .maincontainer{
-    border: 20px solid green;
+    /* border:5px solid green; */
     width: 100vw;
     height: 100vh;
-
+/* overflow: scroll; */
 }
 
 .navbarcontainer{
@@ -36,35 +39,62 @@
     border: 10px solid black;
     height: 90%;
     display: flex;
+    /* width: 100%; */
 }
 .sidebarcontainer{
-    border: 2px solid orange;
-    width: 20%;
-    height: 100%;
-}
-.videocontainer{
-    border: 2px solid purple;
+    border: 2px solid;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+
+}
+.sidebarcontainer:hover{
+    background-color: gray;
 }
 .fixedcategores{
     border: 2px solid ;
-    height: 100%;
+height: 10%;
+}
+.li{
+    color: white;
 }
 .videocontaner{
+
+    width: 100%;
+    height: 100%;
     border: 2px solid red;
     height: 90%;
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
+
+
+    }
+    .vediocardcontaner:hover{
+    /* animation: Animation 0.1s ; */
+    background-color: wheat;
+    transform: scale(1.05);
+    }
+    
+    @keyframes Animation{
+        0%{
+        transform: scale(1);
+        }
+        50%{
+            transform: scale(1.05);
+        }
+        100%{
+            transform: scale(1.05);
+        }
 }
-.vediocardcontaner{
-    border: 2px solid red;
-    height: 90%;
-}
+
 .vediocardcontaner{
     width: 280px;
     height: 200px;
     border: 2px solid black;
     margin: .5rem;
+    background-color: gray;
+    border-radius: 10px;
+transition: transform .02;
+
 }
