@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    border: 0;
+}
+.maincontainer{
+    border: 100px solid red;
+}
+.navbarcontainer{
+    border: 100pm solid black;
+}
+.leftnavbarcontaine,
+.midddlenavbarcontainer,
+.rightnavbarcontainer{
+    border: 100px solid green;
+}
+.maincontentcontainer{
+    border: 500px solid blue;
+}
