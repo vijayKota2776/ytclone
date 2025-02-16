@@ -1,147 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="d-flex">
-      <div class="nav-left d-flex">
-
-        <a href="./index.html">
-        </a>
-      </div>
-      <div class="nav-middle d-flex">
-        <div class="search-box d-flex">
-          <input type="text" placeholder="search" />
-          <div class="search-Div d-flex">
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube - </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="mainContainer" id="maincontainer">
+        <div class="navbarContainer" id="navbarContainer">
+            <div class="leftNavbarContainer" id="leftNavbarContainer"></div>
+            <div class="middleNavbarContainer" id="middleNavbarContainer"></div>
+            <div class="rightNavbarContainer" id="rightNavbarContainer"></div>
         </div>
-        <div class="mic-div d-flex">
-        </div>
-      </div>
-      <div class="nav-right d-flex">
-      </div>
-    </nav>
-
-    <div class="container video-container">
-      <div class="content">
-        <div class="content-left">
-          <video class="video" controls muted autoplay>
-          </video>
-          <div class="below-video-container">
-            <h1>
-               the best channel to learn developemnt and DSA
-            </h1>
-            <div class="other-deatils">
-              <div class="other-deatils-left">
-                <div class="channelNameAndIcon">
-                  <img
-                    class="channelIcon"
-                    alt=""
-                  />
-                  <div class="nameAndSubs">
-                    <p>LetsUpgade</p>
-                    <p class="subsCount">1.04M subscribers</p>
-                  </div>
+        <div class="mainContentContainer" id="mainContentContainer">
+            <div class="sidebarContainer" id="sidebarContainer">
+                <div class="upperSidebarContainer" id="upperSidebarContainer">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Shorts</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Subscription</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Youtube Music</p>
+                        </li>
+                    </ul>
                 </div>
-
-                <div class="joinAndSubsButtonContainer">
-                  <button class="joinButton">Join</button>
-                  <button class="subsButton">Subscribe</button>
+                <hr>
+                <div class="middleSidebarContainer" id="middleSidebarContainer">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>History</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Playlist</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Your Videos</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Your courses</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Watch later</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Liked Videos</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Your Movies</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>Show More</p>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-              <div class="other-deatils-right">
-              </div>
+                <hr>
+                <div class="lowerSidebarContainer" id="lowerSidebarContainer">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <p>home</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <div class="videoMainContainer" id="videoMainContainer" >
+                <div class="fixedCategoriesContainer" id="fixedCategoriesContainer">
 
-            <div class="descriptionContainer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
-                obcaecati facilis doloremque nobis accusantium. Consequatur
-                veniam quis aspernatur cum voluptates? Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Totam obcaecati facilis
-                doloremque nobis accusantium. Consequatur veniam quis aspernatur
-                cum voluptates?
-              </p>
-            </div>
+                    
+                </div>
+                <div class="videoContainer" id="videoContainer">
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
+                    <div class="videoCardContainer" id="videoCardContainer">
+                        <div class="thumbnailContainer" id="thumbnailContainer">
+                            <img src="./test.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <div class="videoInfoContainer" id="videoInfoContainer">
+                            <div class="iconContainer">
+                                <img width="50px" height="50px" src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="titleContainer">
+                                <h3>Heading of Video</h3>
+                                <p class="channelName">T-Series</p>
+                                <p class="upload">1.3M Views . 8 Hrs ago</p>
+                            </div>
+                            <div class="moreContainer"></div>
+                        </div>
+                    </div>
 
-            <div class="commentContainer">
-              <div class="writeCommentContainer">
-                
-              </div>
-              <div class="previoudCommentsContainer"></div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="content-right">
-          <div class="video-list">
-            <div class="video-info" >
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-          <div class="video-list">
-            <div class="video-info">
-              <a href="">Let's upgrade is the best</a>
-              <p>LetsUpgrade</p>
-              <p>4.5k views</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
